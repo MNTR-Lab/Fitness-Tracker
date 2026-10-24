@@ -2,19 +2,20 @@
 
 Two private accounts, 48 original workout sheets organized into 12 weeks, weigh-ins, personal goals, workout progress, and set/reps/weight logging.
 
-## Setup (Cloudflare Workers + D1)
-1. Create a **new** GitHub repository and upload **all contents of this ZIP** (including `public/workouts`).
-2. On a computer with Node.js installed, run `npm install`.
-3. Log into Cloudflare with `npx wrangler login`.
-4. Create a database: `npx wrangler d1 create fitness-tracker-db`.
-5. Copy the database ID returned by Cloudflare into `wrangler.toml`, replacing `REPLACE_WITH_YOUR_D1_DATABASE_ID`.
-6. Initialize the database: `npm run db:remote`.
-7. Create a private setup key: `npx wrangler secret put SETUP_KEY` and enter a long, unique random phrase. **Never commit this key to GitHub.**
-8. Deploy: `npm run deploy`.
-9. Open the Worker URL. Select **Create your invited account**. Use the setup key to create each of the two accounts. After two users are created, additional accounts are blocked by the server.
-10. Each person logs in using their own email/password. Never share passwords.
+## Deployment — Cloudflare D1 already initialized
+The `fitness-tracker` D1 database has been created in your Cloudflare account and its six tables and two indexes were installed on October 24, 2026. Its binding is already included in `wrangler.toml`. **Do not create another database.**
 
-For local testing, run `npm run db:local`, then create a `.dev.vars` file with `SETUP_KEY=your-local-test-key`, and run `npm run dev`. Do not commit `.dev.vars`.
+### Deploy from a local computer
+1. Ensure Node.js is installed, then run `npm install` and `npx wrangler login`.
+2. Enter `npx wrangler secret put SETUP_KEY` after your first `npm run deploy` (or configure the secret through Cloudflare dashboard after the Worker exists). Choose a long, random secret and keep it private.
+3. Run `npm run deploy`, then open the resulting Worker URL.
+4. Select **Create your invited account** and enter the setup key to register each of the two intended users. Once two users exist, account creation is blocked.
+
+### Git-connected deployment
+Cloudflare dashboard → Workers & Pages → Create application → Connect GitHub → select `MNTR-Lab/Fitness-Tracker`, then configure the Worker build/deploy integration according to Cloudflare's current interface. The project uses `wrangler.toml` and needs the `SETUP_KEY` Worker secret prior to registration. Avoid publishing credentials.
+
+### Important privacy note
+The linked GitHub repository currently appears to be **public**. Its `public/workouts` content is also meant to be served as public static assets, even though user accounts protect workout logs. To keep workout scans restricted, move the repository to private and later migrate protected images to authenticated storage; changing repository visibility alone does not secure files already exposed as public website assets. Ensure you have rights to redistribute the workout scans.
 
 ## What works now
 - Two separate password-protected user accounts; session expiry after 30 days; user-scoped data access.
