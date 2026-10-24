@@ -30,3 +30,9 @@ The linked GitHub repository currently appears to be **public**. Its `public/wor
 - Account creation is limited to two users; password reset is not yet implemented.
 - The workout images are reproduced from the user-supplied archive; ensure you have the necessary rights to host them, especially if you later make the app public.
 - The ZIP is deployment-ready source code, but deployment and live testing have **not** been performed in your Cloudflare account.
+
+## Milestone 3: Registration troubleshooting
+- Reduced PBKDF2 iterations from 210,000 to 100,000 to reduce Worker CPU demand during registration and sign-in. Existing accounts created with the prior setting would need migration; verify account count before relying on this change.
+- Matched Worker name to the Git-connected Cloudflare project `fitness-tracker`.
+- This is a targeted mitigation based on the registration symptom, not a confirmed root cause. If the issue persists, enable Worker observability and inspect runtime errors.
+- Rotate the SETUP_KEY after both accounts are created because the original value was shared in chat.
