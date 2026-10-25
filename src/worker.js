@@ -2,7 +2,7 @@ const enc=new TextEncoder();
 const hex=bytes=>[...new Uint8Array(bytes)].map(x=>x.toString(16).padStart(2,'0')).join('');
 const random=()=>crypto.randomUUID();
 async function sha(v){return hex(await crypto.subtle.digest('SHA-256',enc.encode(v)))}
-async function passwordHash(password,salt){const key=await crypto.subtle.importKey('raw',enc.encode(password),'PBKDF2',false,['deriveBits']);return hex(await crypto.subtle.deriveBits({name:'PBKDF2',salt:enc.encode(salt),iterations:100000,hash:'SHA-256'},key,256))}
+async function passwordHash(password,salt){const key=await crypto.subtle.importKey('raw',enc.encode(password),'PBKDF2',false,['deriveBits']);return hex(await crypto.subtle.deriveBits({name:'PBKDF2',salt:enc.encode(salt),iterations:10000,hash:'SHA-256'},key,256))}
 function response(data,status=200){return new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}})}
 function bad(message,status=400){return response({error:message},status)}
 async function auth(request,env){let token=(request.headers.get('Authorization')||'').replace(/^Bearer /,'');if(!token)return null;let hash=await sha(token);return await env.DB.prepare("SELECT users.id,users.name,users.email FROM sessions JOIN users ON users.id=sessions.user_id WHERE token_hash=? AND expires_at>datetime('now')").bind(hash).first()}
