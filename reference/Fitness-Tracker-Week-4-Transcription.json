@@ -1,0 +1,546 @@
+{
+  "4-1": {
+    "title": "Legs",
+    "source_pages": [
+      "Week 4.1"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Phase 2 begins in Week 4; moderate-to-high volume. Source specifies 16 total working sets.",
+    "exercises": [
+      {
+        "name": "Seated leg curls",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 6
+          }
+        ],
+        "instructions": "Two warm-up sets of 15. Choose a challenging weight for three sets of 10, using rest-pause: fully extend legs, pause for one second, then curl and squeeze. Rest about 90 seconds. Fourth working set is an extended drop set: slightly heavier than the 10-rep sets, do 6 reps with 3-second negatives and a pause at the bottom; drop ~20 lb for 6 more, drop ~20 lb for another 6, then one last drop for 15 very hard reps.",
+        "warmup": "2 × 15",
+        "technique": "rest-pause; multi-stage drop set"
+      },
+      {
+        "name": "Squats",
+        "sets": [
+          {
+            "reps": 5
+          },
+          {
+            "reps": 5
+          },
+          {
+            "reps": 5
+          },
+          {
+            "reps": 5
+          },
+          {
+            "reps": 5
+          }
+        ],
+        "instructions": "Warm up with 3 sets of 10, then work up to a weight allowing five solid reps and complete five working sets of five. Squat just below parallel, descend slowly and deliberately, drive up hard, keep every rep strict and avoid sloppy/grinding reps. Focus on total heavy-volume with perfect form.",
+        "warmup": "3 × 10"
+      },
+      {
+        "name": "Barbell walking lunges",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          }
+        ],
+        "instructions": "Use an empty barbell; take 12 steps/paces with each leg. If there is not enough room to walk, use a Smith machine. On each lunge, let the back knee gently touch the ground and pause for one second; bring trailing leg up alongside lead foot to remove momentum, then switch legs. Move down slowly and drive back up. Three working sets.",
+        "technique": "12 paces each leg per set"
+      },
+      {
+        "name": "Dumbbell stiff-leg deadlifts",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          }
+        ],
+        "instructions": "Four sets of 12. Keep legs slightly bent, push hips backward, move slowly and strictly, maintain continuous hamstring tension, and do not lock out at the top."
+      }
+    ]
+  },
+  "4-2": {
+    "title": "Chest & Shoulders",
+    "source_pages": [
+      "Week 4.2"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Pre-exhaust chest with a superset before pressing. Original sheet gives no explicit total chest/shoulder header at top of page.",
+    "exercises": [
+      {
+        "name": "Cable crossovers (superset A)",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          }
+        ],
+        "instructions": "Superset with modified dumbbell flyes for four rounds. Pull handles across the middle of the torso, not too low, to activate the middle chest. Flex and hold one second at the bottom. Twelve reps each round.",
+        "technique": "superset with modified dumbbell flyes"
+      },
+      {
+        "name": "Modified dumbbell flyes (superset B)",
+        "sets": [
+          {
+            "reps": 7
+          },
+          {
+            "reps": 7
+          },
+          {
+            "reps": 7
+          },
+          {
+            "reps": 7
+          }
+        ],
+        "instructions": "Immediately after each cable crossover set, do seven modified flyes. Emphasize a deep stretch and an arched chest with sternum lifted. On the upward phase, only raise arms to approximately the 10 o’clock and 2 o’clock positions, then lower again to keep constant tension. Four supersets total.",
+        "technique": "superset with cable crossovers"
+      },
+      {
+        "name": "Incline barbell bench press",
+        "sets": [
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          }
+        ],
+        "instructions": "Do a few preparatory sets until reaching a weight you would normally use for eight reps. Perform four sets of six with a three-second lowering phase; drive upward only three-quarters of the way and immediately lower again. Focus on the pecs controlling the eccentric.",
+        "warmup": "A few progressively heavier sets"
+      },
+      {
+        "name": "Barbell bench press (paused)",
+        "sets": [
+          {
+            "reps": 5
+          },
+          {
+            "reps": 5
+          },
+          {
+            "reps": 5
+          },
+          {
+            "reps": 5
+          }
+        ],
+        "instructions": "Four working sets of five. Lower the bar, pause two seconds, then explode upward. Pyramid up by roughly 30–40 lb jumps until the fifth rep is challenging. Emphasize speed and controlled paused reps.",
+        "technique": "2-second paused reps; pyramid"
+      },
+      {
+        "name": "Side laterals",
+        "sets": [
+          {
+            "reps": 24
+          },
+          {
+            "reps": 24
+          },
+          {
+            "reps": 24
+          }
+        ],
+        "instructions": "Each working set is three clusters of eight: do eight lateral raises, put the weights down for ten seconds, do eight more, rest ten seconds, then do eight more. You may need assistance to finish the final eight. Three working sets.",
+        "technique": "8 + 10-second rest + 8 + 10-second rest + 8"
+      },
+      {
+        "name": "Machine shoulder press",
+        "sets": [
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          }
+        ],
+        "instructions": "Choose a weight that is hard for ten full reps. Hold and flex for two seconds at the top of each of the first ten reps; immediately perform ten more half reps from the bottom. Three working sets.",
+        "technique": "10 full reps + 10 bottom-half reps"
+      },
+      {
+        "name": "Rear delts on pec deck / flye machine",
+        "sets": [
+          {
+            "reps": 40
+          },
+          {
+            "reps": 40
+          }
+        ],
+        "instructions": "Two sets of 40 reps. Hold and squeeze every rep at the fully contracted position."
+      }
+    ]
+  },
+  "4-3": {
+    "title": "Back",
+    "source_pages": [
+      "Week 4.2",
+      "Week 4.3"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Source heading specifies 16 total back sets; individual exercises sum to 16. First exercise starts at bottom of page 4.2 and continues at top of 4.3.",
+    "exercises": [
+      {
+        "name": "Single-arm cable rows",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "After two warm-up sets, select a weight that is hard for 12 reps, then add weight for 10 and again for 8. Drive the elbow far back and contract hard enough to feel a strong cramp-like squeeze. Stretch lower lats at the extended position. Three work sets.",
+        "warmup": "2 sets"
+      },
+      {
+        "name": "Rack deadlifts",
+        "sets": [
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          },
+          {
+            "reps": 3
+          }
+        ],
+        "instructions": "With lower lats pre-exhausted, work up in weight by adding plates. As you ramp, use sets of six and focus on strict negatives through the lower lats. Finish at a weight where three reps are very difficult. Set bar around kneecap level or slightly higher, take a deep breath on the rack, and pull hard. Source counts the final three ramping sets as working sets.",
+        "technique": "ramp to heavy triple; 3 counted working sets"
+      },
+      {
+        "name": "Lat pulldowns with assisted stretch",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Use a spotter if available. Pull in front and squeeze for one second at the bottom. As you begin the negative, the partner presses gently on the stack to increase tension, then adds gradual resistance near full stretch; tension must stay smooth. Without a partner, use a hard controlled negative. Three sets of ten.",
+        "technique": "partner-assisted eccentric stretch optional"
+      },
+      {
+        "name": "Supported rows",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          }
+        ],
+        "instructions": "Use a chest pad and neutral bench-press-like grip. Keep elbows up, squeeze the middle of the back hard, and stretch at the bottom. Three sets of twelve."
+      },
+      {
+        "name": "Dumbbell shrugs",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Use heavy dumbbells. Do ten reps with a three-second squeeze at the top, rest 45 seconds, then perform more reps to failure; rest 30 seconds, then perform as many more as possible without the three-second top hold. That sequence is one working set; repeat twice.",
+        "technique": "rest-pause / failure clusters"
+      },
+      {
+        "name": "Hyperextensions",
+        "sets": [
+          {
+            "reps": 15
+          },
+          {
+            "reps": 15
+          }
+        ],
+        "instructions": "Hold a moderately heavy dumbbell and perform 15 reps, then drop the dumbbell and do at least ten more bodyweight reps. Two sets.",
+        "technique": "15 weighted + ≥10 bodyweight drop"
+      }
+    ]
+  },
+  "4-4": {
+    "title": "Arms, Calves & Abs",
+    "source_pages": [
+      "Week 4.3",
+      "Week 4.4",
+      "Week 4.5"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Page 4.5 duplicates the visible content of page 4.4. Abdominal section calls for eight sets twice during the week, but does not specify reps or distribution across the two chosen movements; these are recorded as a selectable prescription, not fabricated exercise reps.",
+    "exercises": [
+      {
+        "name": "Dips between benches (superset A)",
+        "sets": [
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          }
+        ],
+        "instructions": "After two warm-up sets, superset bench dips with one-arm incline dumbbell extensions. Perform 20 bench dips, adding weight if possible, then immediately do 8 one-arm dumbbell extensions. Four rounds.",
+        "warmup": "2 sets",
+        "technique": "superset with one-arm incline dumbbell extensions"
+      },
+      {
+        "name": "One-arm incline dumbbell extensions (superset B)",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Sit on an incline utility bench. Use one dumbbell, lower it across the face while keeping upper arm and elbow pointing upward; keep movement strict. Do all eight reps on one arm, then the other, after the bench dips. Four supersets.",
+        "technique": "8 per arm; superset with bench dips"
+      },
+      {
+        "name": "Close-grip bench press",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "One warm-up set. Three sets of eight with a three-second negative. Choose a comfortable EZ bar or straight bar; lower under control to emphasize the triceps stretch. Keep a strong triceps focus.",
+        "warmup": "1 set"
+      },
+      {
+        "name": "Rope pushdowns",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Three heavy sets of eight, flexing hard at the bottom. Stretch triceps frequently after they become pumped."
+      },
+      {
+        "name": "EZ-bar curls",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Two warm-up sets. Pyramid up in weight for sets of 12, 10, and 8. Lower for two seconds, squeeze hard on every rep, and rest about one minute between sets.",
+        "warmup": "2 sets"
+      },
+      {
+        "name": "Dumbbell curls (palms-up phase)",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Three rounds: perform eight curls with palms facing up throughout, taking three seconds on the lowering phase, then immediately flip the wrists for eight hammer-style curls.",
+        "technique": "superset with hammer phase"
+      },
+      {
+        "name": "Dumbbell hammer curls (same-round continuation)",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Immediately after eight palms-up curls, perform eight hammer curls. Repeat this two-part sequence for three rounds. The source counts six working sets total across the two phases.",
+        "technique": "paired with palms-up curls"
+      },
+      {
+        "name": "Preacher curls (heavy partials)",
+        "sets": [
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          }
+        ],
+        "instructions": "Four sets of six heavy partial reps, working the middle and top of the range. Flex hard at the top of each rep.",
+        "technique": "partial range"
+      },
+      {
+        "name": "Standing machine calf raises",
+        "sets": [
+          {
+            "reps": 15
+          },
+          {
+            "reps": 15
+          },
+          {
+            "reps": 15
+          },
+          {
+            "reps": 15
+          },
+          {
+            "reps": 15
+          },
+          {
+            "reps": 15
+          }
+        ],
+        "instructions": "Two warm-up sets of twenty. Pyramid to a weight that allows about ten full-range reps. Each working set: ten full-range reps followed immediately by five partials out of the bottom. Rest two minutes between sets.",
+        "warmup": "2 × 20",
+        "technique": "10 full + 5 bottom partials"
+      },
+      {
+        "name": "Seated calf raises",
+        "sets": [
+          {
+            "reps": 25
+          },
+          {
+            "reps": 25
+          },
+          {
+            "reps": 25
+          }
+        ],
+        "instructions": "Three sets of twenty-five reps."
+      },
+      {
+        "name": "Lower-ab exercise — choose one",
+        "sets": [
+          {
+            "reps": "not specified"
+          },
+          {
+            "reps": "not specified"
+          },
+          {
+            "reps": "not specified"
+          },
+          {
+            "reps": "not specified"
+          }
+        ],
+        "instructions": "Choose one lower-ab movement: hanging leg raises; supported elbow-pad leg raises; decline bench/board leg raises; or V-ups. Source specifies eight total abdominal sets twice this week, but does not specify rep counts or allocation between lower and upper abs. Four sets here are a provisional equal split for app tracking, NOT an explicit prescription.",
+        "technique": "choice; provisional allocation"
+      },
+      {
+        "name": "Upper-ab exercise — choose one",
+        "sets": [
+          {
+            "reps": "not specified"
+          },
+          {
+            "reps": "not specified"
+          },
+          {
+            "reps": "not specified"
+          },
+          {
+            "reps": "not specified"
+          }
+        ],
+        "instructions": "Choose one upper-ab movement: incline sit-ups, rope pulldown/crunches, or band crunches. Source specifies eight total abdominal sets twice this week without rep counts or allocation. Four sets here are a provisional equal split for app tracking, NOT an explicit prescription.",
+        "technique": "choice; provisional allocation"
+      }
+    ]
+  }
+}

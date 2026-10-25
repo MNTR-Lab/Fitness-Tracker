@@ -1,0 +1,569 @@
+{
+  "6-1": {
+    "title": "Legs",
+    "source_pages": [
+      "Week 6.1"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Source heading 16 sets = 6 superset exercise-sets + 4 squats + 3 hacks + 3 deadlifts.",
+    "exercises": [
+      {
+        "name": "Seated leg curls",
+        "sets": [
+          {
+            "reps": 15
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Pre-exhaust superset with leg extensions; two warm-up rounds, then three working rounds. First 15, second 12, third 8 heavy, with normal form.",
+        "warmup": "2 supersets",
+        "group": "A",
+        "technique": "superset A"
+      },
+      {
+        "name": "Leg extensions",
+        "sets": [
+          {
+            "reps": 15
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": "8 + 15 partials"
+          }
+        ],
+        "instructions": "Paired with seated curls. First 15, second 12, third 8 followed immediately by 15 short partials at bottom.",
+        "warmup": "2 supersets",
+        "group": "A",
+        "technique": "superset A; third set partials"
+      },
+      {
+        "name": "Barbell squats",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Two warm-up sets. Pyramid weight for four hard sets of 8. Three-second controlled descent, then drive up; squat to parallel. Fourth set should be extremely challenging.",
+        "warmup": "2 sets",
+        "technique": "3-second negatives"
+      },
+      {
+        "name": "Hack squats",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Three rock-bottom sets of 8, increasing weight if possible. Stretch quads hard for 30 seconds between sets.",
+        "rest": "30-second quad stretch between sets"
+      },
+      {
+        "name": "Dumbbell stiff-legged deadlifts",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          }
+        ],
+        "instructions": "Three sets of 12, go down deep into hamstring stretch, then come up only three-quarters of the way to retain tension."
+      }
+    ]
+  },
+  "6-2": {
+    "title": "Chest & Shoulders",
+    "source_pages": [
+      "Week 6.1",
+      "Week 6.2"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Source chest 16 sets (4+5+4+3); shoulders 10 (4+3+3). Smith press target reps 10–6 inferred from five-set example, not an explicit fixed prescription.",
+    "exercises": [
+      {
+        "name": "Hammer Strength incline press",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Two warm-ups. Pyramid up through 12, 10, 8; focus on deep stretch and continuous tension, pressing only three-quarters up. Fourth set: use weight from 8-rep set, do 8 then drop weight and do 8 more.",
+        "warmup": "2 sets",
+        "technique": "final set drop"
+      },
+      {
+        "name": "Incline Smith machine press",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 9
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 7
+          },
+          {
+            "reps": 6
+          }
+        ],
+        "instructions": "Slight incline. Work up through five sets from about 10 to 6 reps, adding ~10–20 lb each set. Lower slowly to 2 inches above upper chest and press to three-quarter lockout. Source lists an example progression of 225×10, 250×9, 275×8, 300×7, 320×6.",
+        "technique": "ascending pyramid; partial lockout"
+      },
+      {
+        "name": "Barbell bench press rest-pause clusters",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          }
+        ],
+        "instructions": "Four cluster sets: pause bar on chest for two seconds each rep, then drive up. Within each set do 5 reps, rack for 20 seconds, do 4, rack for 20 seconds, do 3 (12 reps per cluster).",
+        "technique": "4 × (5+4+3), 20-second rack rests; 2-second pauses"
+      },
+      {
+        "name": "Pec fly machine",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Three sets of 8, emphasizing stretch and holding a one-second flex at contraction. Between sets, stretch each pec for 30 seconds.",
+        "rest": "30-second pec stretch between sets"
+      },
+      {
+        "name": "Machine side laterals with negative resistance",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 50
+          }
+        ],
+        "instructions": "Three sets of 10 with a partner pushing down on the pads/arms to add eccentric resistance (or use dumbbells with assisted negative). Finish with one set of 50 very small partials out of the bottom.",
+        "technique": "3 eccentric overload sets + 50 partials"
+      },
+      {
+        "name": "Wide-grip Smith machine military press",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Lower bar to forehead, press to lockout and lean slightly forward while flexing delts. Use light-moderate weight, slow negative, rest only ~45 seconds.",
+        "rest": "~45 seconds"
+      },
+      {
+        "name": "High cable rear delts",
+        "sets": [
+          {
+            "reps": 25
+          },
+          {
+            "reps": 25
+          },
+          {
+            "reps": 25
+          }
+        ],
+        "instructions": "Three sets of 25 on high pulleys at crossover rack. Pull from high angle; use light weight."
+      }
+    ]
+  },
+  "6-3": {
+    "title": "Back",
+    "source_pages": [
+      "Week 6.2",
+      "Week 6.3"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Source heading 17 sets = 4+4+3+3+3. One-arm row starts on page 6.2 and finishes on 6.3.",
+    "exercises": [
+      {
+        "name": "Smith machine bent-over rows",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Two warm-ups. Set stops at mid-shin and pause bar for one second on the stops each rep; lower controlled and drive hard, four hard sets of 8.",
+        "warmup": "2 sets",
+        "technique": "rest-pause at bottom"
+      },
+      {
+        "name": "One-arm barbell rows",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Landmine-style barbell in a corner; stand beside bar and grip just below plates. Add weight each set if able; eight reps per set, focus on stretch at bottom and lower-lat thickness. Two 30-second lat stretches after this exercise."
+      },
+      {
+        "name": "Underhand-grip lat pulldowns (Dorian Yates style)",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Grip a little wider than shoulder width; adjust wrist position for comfort. Drive elbows down, keep chest arched, constant tension, avoid turning into a biceps curl."
+      },
+      {
+        "name": "Dumbbell pullovers",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Lie along bench with head hanging off end, not across bench. Get a little extra stretch each rep, emphasizing serratus and upper lats."
+      },
+      {
+        "name": "Dumbbell hyperextensions",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Three sets: ten slow weighted reps squeezing spinal erectors at top, then drop dumbbell and pump ten additional bodyweight reps each set.",
+        "technique": "each set: 10 weighted + 10 bodyweight drop"
+      }
+    ]
+  },
+  "6-4": {
+    "title": "Arms, Calves & Abs",
+    "source_pages": [
+      "Week 6.3",
+      "Week 6.4"
+    ],
+    "status": "source_reviewed_paraphrase",
+    "notes": "Source biceps 14 and triceps 14 (4-round quad set + 3-round quad set); calves 5; abs 8. The source prescribes 15–25 ab reps, and 20 is an editable placeholder.",
+    "exercises": [
+      {
+        "name": "Rope pushdowns",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          },
+          {
+            "reps": 12
+          }
+        ],
+        "instructions": "Quad set #1, four rounds. Flex at bottom with hands apart to hit lateral triceps.",
+        "group": "A",
+        "technique": "quad set #1"
+      },
+      {
+        "name": "Seated dumbbell supination curls",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Quad set #1. Perform one arm at a time, supinating and flexing hard at top.",
+        "group": "A",
+        "technique": "quad set #1"
+      },
+      {
+        "name": "High cable kickbacks",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Quad set #1. Keep upper arm parallel to floor; lock and flex elbow, then raise whole arm about two inches to increase contraction.",
+        "group": "A",
+        "technique": "quad set #1"
+      },
+      {
+        "name": "EZ-bar reverse curls",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Quad set #1. Curl to chin and lower with a three-second negative.",
+        "group": "A",
+        "technique": "quad set #1; 3-second negative"
+      },
+      {
+        "name": "Weighted dips",
+        "sets": [
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          }
+        ],
+        "instructions": "Quad set #2, three rounds. Bodyweight is fine. Stay in middle range, not all the way down or all the way up; keep tension.",
+        "group": "B",
+        "technique": "quad set #2"
+      },
+      {
+        "name": "EZ-bar curls",
+        "sets": [
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          },
+          {
+            "reps": 6
+          }
+        ],
+        "instructions": "Quad set #2. Regular curls, lower with three-second negative.",
+        "group": "B",
+        "technique": "quad set #2; 3-second negative"
+      },
+      {
+        "name": "Lying triceps extensions",
+        "sets": [
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 8
+          }
+        ],
+        "instructions": "Quad set #2. Use manageable weight, allow bar slightly behind head for a long triceps stretch. Stretch each triceps and biceps for 30 seconds after each round.",
+        "group": "B",
+        "technique": "quad set #2"
+      },
+      {
+        "name": "Dumbbell hammer curls",
+        "sets": [
+          {
+            "reps": 7
+          },
+          {
+            "reps": 7
+          },
+          {
+            "reps": 7
+          }
+        ],
+        "instructions": "Quad set #2. Curl both arms together, heavy enough to be challenging; squeeze dumbbells tightly. Stretch biceps and triceps 30 seconds after each round.",
+        "group": "B",
+        "technique": "quad set #2"
+      },
+      {
+        "name": "Standing calf raises",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 20
+          }
+        ],
+        "instructions": "One warm-up set of 30. Pyramid to three heavy sets of 10; reduce weight for final set of 20. Flex at top, stretch at bottom for 3 seconds. Finish with 30-second stretch on each calf.",
+        "warmup": "1 × 30"
+      },
+      {
+        "name": "Seated calf raises",
+        "sets": [
+          {
+            "reps": 15
+          }
+        ],
+        "instructions": "One all-out extended set: 15 reps, drop weight for 10, drop again for 20 tiny bottom partials. No hold at bottom; keep reps moving.",
+        "technique": "15 + 10 drop + 20 partials"
+      },
+      {
+        "name": "Lower abdominal exercise (choose one)",
+        "sets": [
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          }
+        ],
+        "instructions": "Choose hanging leg raises, elbows-supported leg raises, decline-bench leg raises, or V-ups. Four sets of 15–25 depending on difficulty; 20 is a placeholder within prescribed range.",
+        "reps_range": "15–25",
+        "choices": [
+          "Hanging leg raises",
+          "Elbow-supported leg raises",
+          "Decline-bench leg raises",
+          "V-ups"
+        ]
+      },
+      {
+        "name": "Upper abdominal exercise (choose one)",
+        "sets": [
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          },
+          {
+            "reps": 20
+          }
+        ],
+        "instructions": "Choose incline sit-ups, rope pulldowns/crunches, or band crunches. Four sets of 15–25 depending on difficulty; 20 is a placeholder within prescribed range.",
+        "reps_range": "15–25",
+        "choices": [
+          "Incline sit-ups",
+          "Rope pulldowns/crunches",
+          "Band crunches"
+        ]
+      }
+    ]
+  }
+}
