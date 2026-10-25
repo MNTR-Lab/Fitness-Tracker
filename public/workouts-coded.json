@@ -1,0 +1,79 @@
+{
+  "1-1": {
+    "title": "Legs",
+    "status": "needs_original_text_review",
+    "exercises": [
+      {
+        "name": "Lying leg curls",
+        "sets": [
+          {
+            "reps": 12
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 8
+          },
+          {
+            "reps": 10,
+            "type": "drop set"
+          }
+        ],
+        "instructions": "Have someone gently push down on your lower back while you perform these to keep your hips down. You won\u2019t be able to go as heavy, but it will isolate them better. Two warm-up sets: 12 reps and 10 reps. For the fourth set, return to the weight used for 12 reps and perform 10 more reps, then drop a plate for 10 reps, drop another plate for 10 reps, and finish with 25 partial reps out of the bottom. Keep constant tension."
+      },
+      {
+        "name": "Barbell stiff legs",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Bend your knees at the bottom. Use 25 lb plates on the barbell to get a better stretch. Complete 2 warm-up sets, then 3 working sets of 10. Flex glutes and hamstrings at the top."
+      },
+      {
+        "name": "Leg press",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Place feet a little wider than shoulder width and a little low on the platform. Start light with one plate on each side, increase until you reach a challenging working weight. During each working set, take 3 seconds lowering the eccentric phase and drive up without locking out. Keep constant tension. Three working sets of 10."
+      },
+      {
+        "name": "Smith machine squat",
+        "sets": [
+          {
+            "reps": 10
+          },
+          {
+            "reps": 10
+          }
+        ],
+        "instructions": "Warm up thoroughly. Use a constant-tension squat with feet slightly forward, going below parallel and coming about three quarters of the way up. Two working sets of 10."
+      },
+      {
+        "name": "Leg extension",
+        "sets": [
+          {
+            "reps": 12,
+            "type": "drop set"
+          }
+        ],
+        "instructions": "Raise your butt off the seat while performing these. One drop set: 12 reps, reduce the weight, then hold each contraction for 3 seconds. Use the original sheet for the precise drop sequence."
+      }
+    ]
+  }
+}

@@ -43,3 +43,11 @@ The linked GitHub repository currently appears to be **public**. Its `public/wor
 - If `SETUP_SESSION_CREATE` is returned, the user record may have been created successfully. **Try signing in** rather than creating a duplicate account.
 - No database schema changes. No changes to password hashing or existing credentials.
 - To see the code, use the browser's Network panel, select the `/api/setup` request, and inspect its Response JSON. The UI may only show the generic error.
+
+
+## Coded workouts (in progress)
+- `public/workouts-coded.json` contains draft exercise data for Week 1 Day 1 only; original wording requires final review.
+- Remaining workouts intentionally display “conversion pending” instead of fabricated prescriptions.
+- Exercises show expandable original instructions and set-by-set weight/reps fields; saved via existing D1 `exercise_logs`.
+- Preserve `public/workouts/*.jpg` as reference during transcription.
+- This is a functional staged milestone, **not** completion of all 48 conversions.
