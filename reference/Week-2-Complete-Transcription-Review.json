@@ -1,0 +1,352 @@
+{
+  "program": "12 Weeks of Pain and Suffering",
+  "week": 2,
+  "source_pages": [
+    "Program 1 (Week 2.1).jpeg",
+    "Program 1 (Week 2.2).jpeg",
+    "Program 1 (Week 2.3).jpeg",
+    "Program 1 (Week 2.4).jpeg",
+    "Program 1 (Week 2.5).jpeg"
+  ],
+  "status": "transcribed_from_all_five_source_pages",
+  "workouts": [
+    {
+      "day": 1,
+      "title": "Legs",
+      "source_pages": [
+        "2.1"
+      ],
+      "notes": "Low to moderate volume; 13 working sets as listed in source heading. Perform a 30-second quad stretch between leg press and hack squat sets, increasing intensity as blood flow increases.",
+      "exercises": [
+        {
+          "name": "Seated leg curls",
+          "working_sets": 4,
+          "reps": [
+            14,
+            12,
+            10,
+            35
+          ],
+          "instructions": "Find a weight that is hard for 14 reps, using a full range of motion all the way up and back. Do 14 reps; rest 1 minute. Add a plate and do 12 reps; rest 1 minute. Add another plate and do 10 reps. Return to a weight 1 or 2 plates lighter than the starting weight and perform 35 reps. The first 10 should feel easy; finish the entire set, using partials for the last 10 if necessary.",
+          "warmup": "2 warm-up sets of 20"
+        },
+        {
+          "name": "Leg extension",
+          "working_sets": 2,
+          "reps": [
+            10,
+            10
+          ],
+          "instructions": "Work up to a weight you can do for 10 reps. Perform 2 sets of 10, holding and squeezing for 2 seconds at the top. If your butt comes out of the seat, it will make the teardrop work harder.",
+          "warmup": "As many warm-up sets as needed to feel comfortable"
+        },
+        {
+          "name": "Leg press in a machine",
+          "working_sets": 3,
+          "reps": [
+            16,
+            16,
+            16
+          ],
+          "instructions": "Warm up with a standard shoulder-width stance, toes pointed straight up and medium placement on the platform. Focus on the lower part of the movement and the teardrop. Add a plate and perform 10 reps until reaching a weight normally good for 10–12 reps maximum. With that weight do 3 sets of 16, using your hands to assist if necessary. Continuous tension, no locking out. Rest about 3–4 minutes between working sets.",
+          "warmup": "2 warm-up sets"
+        },
+        {
+          "name": "Hack squats",
+          "working_sets": 2,
+          "reps": [
+            8,
+            8
+          ],
+          "instructions": "Warm up slowly all the way to rock bottom. Work up to a weight allowing 8 reps rock bottom. Descend all the way and pause under control; drive up without locking out. Your legs should be extremely pumped after the two sets.",
+          "warmup": "1 slow warm-up set"
+        },
+        {
+          "name": "Dumbbell stiff-leg deadlifts",
+          "working_sets": 2,
+          "reps": [
+            10,
+            10
+          ],
+          "instructions": "Do not come all the way up; bend the knees slightly at the bottom and focus on getting a good stretch. Try to get deeper each set, pushing the hips back as you descend and keeping the dumbbell right against you."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Back",
+      "source_pages": [
+        "2.1",
+        "2.2"
+      ],
+      "notes": "14 sets listed in source heading. The dumbbell row begins on page 2.1; remaining back exercises continue on 2.2.",
+      "exercises": [
+        {
+          "name": "Dumbbell row deadstops",
+          "working_sets": 3,
+          "reps": [
+            12,
+            12,
+            12
+          ],
+          "instructions": "Perform a normal dumbbell row, but let the dumbbell rest on the ground before driving the elbow up as hard as possible. Do several warm-up sets to ensure you can drive your elbow up hard. Pyramid up 3 × 12, about 30 lb heavier each set. Stay controlled, especially on the way down.",
+          "warmup": "Several warm-up sets"
+        },
+        {
+          "name": "Cable rows",
+          "working_sets": 3,
+          "reps": [
+            10,
+            10,
+            10
+          ],
+          "instructions": "Standard low cable row with a 2-second pause in contraction. On odd reps 1, 3, 5, 7 and 9, lean forward to stretch the lower lats, contract and hold for 2 seconds. On even reps 2, 4, 6, 8 and 10, keep your back totally straight and arms straight before contracting. Flex hard during each hold."
+        },
+        {
+          "name": "Barbell row in Smith machine (overhand grip)",
+          "working_sets": 3,
+          "reps": [
+            12,
+            12,
+            12
+          ],
+          "instructions": "Pull relatively high toward the upper abs to target rhomboids and traps. Hold and flex at the top for 2 seconds. Use the same weight for all three sets, with strict form rather than swinging a heavy barbell."
+        },
+        {
+          "name": "Dumbbell pullovers",
+          "working_sets": 2,
+          "reps": [
+            15,
+            15
+          ],
+          "instructions": "Rest the arms from rowing and keep stretching the lats. Pull only to the top of the forehead, then lower. Lie lengthwise on the bench with the head hanging off its end, rather than across the bench, to allow a comfortable stretch. Return only to forehead level."
+        },
+        {
+          "name": "Barbell shrugs",
+          "working_sets": 2,
+          "reps": [
+            25,
+            25
+          ],
+          "instructions": "Perform higher-rep shrugs this week and focus on the burn."
+        },
+        {
+          "name": "Hyperextensions holding a moderately heavy dumbbell",
+          "working_sets": 1,
+          "reps": [
+            "failure"
+          ],
+          "instructions": "Move slowly and concentrate on contracting the spinal erectors. Drop the dumbbell when exhausted and continue with bodyweight."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Chest & Shoulders",
+      "source_pages": [
+        "2.2",
+        "2.3"
+      ],
+      "notes": "Chest heading says 11 sets, but individual exercise totals sum to 12; shoulders 10 working sets. Source chest prescriptions contain some self-reported rep examples rather than fixed targets.",
+      "exercises": [
+        {
+          "name": "Flat dumbbell presses",
+          "working_sets": 4,
+          "reps": [
+            "15, then increase weight each set; reps as achieved",
+            "15, then increase weight each set; reps as achieved",
+            "15, then increase weight each set; reps as achieved",
+            "15, then increase weight each set; reps as achieved"
+          ],
+          "instructions": "After light warm-ups, select a weight for a solid 15 reps. Use a normal traditional bench-press grip. Pause 1 second at the bottom and squeeze for 1 second at the top. Increase weight each set and record the reps achieved; source example was 15, 13, 11 and 9.",
+          "warmup": "3 light warm-up sets"
+        },
+        {
+          "name": "Decline dumbbell press",
+          "working_sets": 4,
+          "reps": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "instructions": "Use a slight decline rather than a steep angle. Keep elbows angled to avoid rotator strain. Find a good weight and aim for 4 sets of 10, squeezing at the top. The source example fatigued to 10, 10, 9, 8."
+        },
+        {
+          "name": "Incline dumbbell press",
+          "working_sets": 3,
+          "reps": [
+            "reps as achieved",
+            "reps as achieved",
+            "reps as achieved"
+          ],
+          "instructions": "Use a good weight for 3 sets. Maintain a 1-second stretch at the bottom but do not squeeze at the top; keep continuous tension and do not come up all the way."
+        },
+        {
+          "name": "Cable crossovers",
+          "working_sets": 1,
+          "reps": [
+            20
+          ],
+          "instructions": "Stretch hard and bring the arms close to the flex position, but not quite all the way. Maintain continuous tension for a strong pump."
+        },
+        {
+          "name": "Heavy side laterals",
+          "working_sets": 5,
+          "reps": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "instructions": "Bring dumbbells to ear level. Rest only 30 seconds between sets. Heavy laterals with low reps and short rests should produce a deep dull burn."
+        },
+        {
+          "name": "Bent-over rear laterals (cable machine)",
+          "working_sets": 5,
+          "reps": [
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "instructions": "Use the cable machine this week. Barely move the arms while the rear delts burn. Higher repetitions, controlled movement, and accumulating pump are emphasized."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Arms, Calves & Abs",
+      "source_pages": [
+        "2.3",
+        "2.4",
+        "2.5"
+      ],
+      "notes": "Triceps 13 sets, biceps 9 sets, calves 5 sets, abs 8 sets. Triceps begins on 2.3, continues on 2.4; calves continue onto 2.5. For abdominal work select one option from each list rather than doing all options.",
+      "exercises": [
+        {
+          "name": "Rope pushdowns",
+          "working_sets": 3,
+          "reps": [
+            15,
+            15,
+            15
+          ],
+          "instructions": "Flex at the bottom for 1 second. Perform as the first exercise in a three-exercise tri-set.",
+          "warmup": "2 warm-up rounds with light weight",
+          "group": "Triceps tri-set — 3 rounds"
+        },
+        {
+          "name": "Pronated dumbbell kickbacks",
+          "working_sets": 3,
+          "reps": [
+            6,
+            6,
+            6
+          ],
+          "instructions": "Turn palms to face upward toward the ceiling at peak contraction to emphasize the inner/long head. Strong peak contraction; perform second in the tri-set.",
+          "warmup": "2 warm-up rounds with light weight",
+          "group": "Triceps tri-set — 3 rounds"
+        },
+        {
+          "name": "Dips between benches",
+          "working_sets": 3,
+          "reps": [
+            "failure",
+            "failure",
+            "failure"
+          ],
+          "instructions": "At the top, flex and sit back on the triceps for 1 second. The source reports about 6–10 reps and says added plates should not be necessary. Perform third in the tri-set. After three rounds, rest a few minutes before the next exercise.",
+          "warmup": "2 warm-up rounds with light weight",
+          "group": "Triceps tri-set — 3 rounds"
+        },
+        {
+          "name": "Incline triceps extensions with dumbbells",
+          "working_sets": 4,
+          "reps": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "instructions": "Use a relatively light weight. Let the dumbbells move slightly out to the sides while lowering so they do not hit the bench. Seek a good stretch at the bottom."
+        },
+        {
+          "name": "EZ bar curls",
+          "working_sets": 3,
+          "reps": [
+            10,
+            10,
+            "8 + 4 + 2"
+          ],
+          "instructions": "Do 2 warm-up sets of 20 reps. Then 10 strict reps, rest 1 minute and do another 10. The third set is an 842 rest-pause: 8 reps, rest 10 seconds, 4 reps, rest 5 seconds, 2 reps. Avoid swinging and focus on a roughly 2-second negative during the final mini-sets.",
+          "warmup": "2 warm-up sets of 20"
+        },
+        {
+          "name": "EZ bar preacher curls",
+          "working_sets": 3,
+          "reps": [
+            10,
+            10,
+            "8 + 4 + 2"
+          ],
+          "instructions": "Keep the movement strict as fatigue increases. Do two sets of 10 followed by an 842 rest-pause set (8 reps, 10-second rest, 4 reps, 5-second rest, 2 reps)."
+        },
+        {
+          "name": "Hammer curls",
+          "working_sets": 3,
+          "reps": [
+            10,
+            10,
+            "8 + 4 + 2"
+          ],
+          "instructions": "Perform 10 reps, add 5 lb to the dumbbells for another 10 reps, add 5 lb again, and finish with an 842 rest-pause set. Focus on a slow negative, especially in the 842 set."
+        },
+        {
+          "name": "Standing calf raises",
+          "working_sets": 4,
+          "reps": [
+            10,
+            10,
+            10,
+            20
+          ],
+          "instructions": "Warm up for 30 reps, then pyramid upward from 15 reps until only 10 are possible. Do 3 sets of 10 at that weight. Reduce the weight for the final set of 20. Flex at the top and stretch at the bottom for 3 seconds. For the final set, avoid descending all the way and use half reps. Finish with four 30-second stretches for each calf.",
+          "warmup": "1 warm-up set of 30; pyramid sets before work sets"
+        },
+        {
+          "name": "Seated calf raise",
+          "working_sets": 1,
+          "reps": [
+            "15 + 10 + 20 partials"
+          ],
+          "instructions": "One all-out extended set: choose a weight for 15 reps, reduce weight for 10 reps, reduce again for 20 mini-partials from the bottom. Flex at the top and stretch at the bottom; do not pause at the bottom, keep the reps moving."
+        },
+        {
+          "name": "Lower abs — choose one exercise",
+          "working_sets": 4,
+          "reps": [
+            "15–25",
+            "15–25",
+            "15–25",
+            "15–25"
+          ],
+          "instructions": "Choose ONE: hanging leg raises; leg raises with elbows supported on pad; leg raises on a decline board/bench; V-ups. Do 4 sets of 15–25 depending on difficulty."
+        },
+        {
+          "name": "Upper abs — choose one exercise",
+          "working_sets": 4,
+          "reps": [
+            "15–25",
+            "15–25",
+            "15–25",
+            "15–25"
+          ],
+          "instructions": "Choose ONE: incline sit-ups; rope pulldowns/crunches; band crunches. Do 4 sets of 15–25 depending on difficulty."
+        }
+      ]
+    }
+  ]
+}
