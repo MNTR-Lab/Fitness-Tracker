@@ -1,3 +1,42 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c111b"><link rel="manifest" href="/manifest.webmanifest"><title>Fitness Tracker</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#6b35d7"><link rel="manifest" href="/manifest.webmanifest"><title>Fitness Tracker</title><style>
 :root{font-family:Inter,system-ui,-apple-system,Arial,sans-serif;color:#eaf0fb;background:#0b1019}*{box-sizing:border-box}body{margin:0}button,input,textarea{font:inherit}button{cursor:pointer;border:0;border-radius:11px;padding:12px 17px;background:#287bff;color:white;font-weight:700}button.secondary{background:#222d3e;color:#dce7f7}button.ghost{background:transparent;color:#9cb8e9}button:disabled{opacity:.5;cursor:not-allowed}input,textarea{background:#0c1422;color:white;border:1px solid #34435b;border-radius:10px;padding:12px;width:100%}label{display:block;color:#b5c4d8;font-size:13px;margin:12px 0 5px}.shell{display:flex;min-height:100vh}.side{width:224px;background:#101824;padding:26px 16px;border-right:1px solid #253144}.brand{font-weight:900;font-size:20px;margin:0 10px 35px}.brand span{color:#3d91ff}.nav{display:block;width:100%;text-align:left;margin-bottom:9px;background:transparent;color:#aebcd1}.nav.active{background:#2469df;color:white}.main{flex:1;max-width:1300px;padding:35px 42px;margin:auto;width:100%}.muted{color:#9babc1}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:#141e2c;border:1px solid #293548;border-radius:18px;padding:23px;margin-bottom:18px}.metric{font-size:30px;font-weight:800;margin-top:10px}.hero{display:grid;grid-template-columns:1.4fr .6fr;gap:20px}.hero .card{background:linear-gradient(110deg,#152b4b,#141e2c 70%)}h1{font-size:32px;margin:0 0 5px}h2{font-size:23px;margin:4px 0 14px}h3{margin:0 0 12px}p{line-height:1.5}.pill{display:inline-block;border-radius:20px;background:#173d75;color:#a8ceff;padding:6px 11px;font-size:12px;font-weight:800}.workout-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px}.tile{background:#1c2a3b;border:1px solid #30425a;border-radius:12px;padding:16px;text-align:left;color:white}.tile.done{border-color:#35bd84}.tile strong{display:block;font-size:18px;margin-bottom:8px}.flex{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.between{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.image{width:100%;max-height:600px;object-fit:contain;background:white;border-radius:12px}.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}.entry{padding:13px 0;border-bottom:1px solid #2b374a}.auth{max-width:430px;margin:9vh auto;padding:30px}.hidden{display:none!important}.notice{color:#ffbf82;margin:10px 0}.success{color:#59d9a2}.chart{width:100%;height:180px}.bar{height:8px;background:#29394e;border-radius:10px;overflow:hidden}.bar>div{height:100%;background:#308aff}.small{font-size:13px}.mobile-nav{display:none}@media(max-width:850px){.side{display:none}.main{padding:22px 16px 95px}.grid{grid-template-columns:repeat(2,1fr)}.hero,.two{grid-template-columns:1fr}.mobile-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background:#111b29;border-top:1px solid #30405a;z-index:9;justify-content:space-around;padding:8px 0}.mobile-nav button{font-size:11px;padding:11px 6px;background:none;color:#c3d4ec}h1{font-size:26px}}@media(max-width:410px){.grid{grid-template-columns:1fr 1fr}.metric{font-size:23px}.card{padding:17px}}
+
+/* Milestone 6 — vibrant, high-contrast fitness theme */
+:root{color-scheme:light;font-family:Inter,system-ui,-apple-system,Arial,sans-serif;color:#222047;background:#f7f4ff}
+body{background:radial-gradient(ellipse at 0% 0%,#ffe7f1 0,transparent 36%),radial-gradient(ellipse at 100% 0%,#ddf9f4 0,transparent 42%),#f7f4ff;color:#222047}
+h1,h2,h3{color:#252044;letter-spacing:-.025em}
+h1{font-weight:900}h2{font-weight:850}
+button{background:linear-gradient(110deg,#7545f8,#b43df2);box-shadow:0 5px 16px #8b57ee33;color:#fff;transition:transform .16s,box-shadow .16s}
+button:hover{transform:translateY(-2px);box-shadow:0 9px 22px #8b57ee42}
+button.secondary{background:#fff;color:#6335bd;border:1px solid #dfd3f8;box-shadow:none}
+button.ghost{color:#6937ca;background:#eee7ff;box-shadow:none}
+input,textarea{background:#fff;color:#282144;border:1px solid #d8d0ec;box-shadow:inset 0 1px 2px #2b16580a}
+input:focus,textarea:focus{outline:3px solid #b9a4ff;border-color:#7545f8}
+label{color:#534d72}
+.side{background:linear-gradient(180deg,#572bc5 0%,#853de1 57%,#e14aa5 100%);border:0;box-shadow:8px 0 30px #44239b18}
+.brand{color:#fff;font-size:21px}.brand span{color:#f7ec73}
+.nav{color:#f4eaff;background:transparent;box-shadow:none}
+.nav:hover{background:#ffffff22;box-shadow:none}
+.nav.active{background:#fff;color:#5e2ac1;box-shadow:0 7px 18px #36137c35}
+.main{max-width:1380px}
+.muted{color:#6c6588}
+.card{background:#fff;border:1px solid #e9e2f5;box-shadow:0 8px 26px #4527800b;border-radius:21px}
+.hero .card:first-child{background:linear-gradient(120deg,#6a3bd7,#9d4bea 58%,#f164ab);color:#fff;border:0;box-shadow:0 14px 32px #8e47db42}
+.hero .card:first-child h2,.hero .card:first-child p,.hero .card:first-child .muted{color:#fff}
+.hero .card:first-child .pill{background:#ffffff33;color:#fff}
+.hero .card:first-child button:not(.secondary){background:#fff;color:#6d36c9;box-shadow:0 5px 15px #40147d33}
+.hero .card:first-child button.secondary{background:#ffffff24;color:#fff;border:1px solid #ffffff80}
+.pill{background:#efe4ff;color:#7436cb}
+.metric{color:#6234c7}
+.bar{background:#eee7fa;height:11px}.bar>div{background:linear-gradient(90deg,#16c8bd,#794cf7,#ed53a6)}
+.tile{background:linear-gradient(145deg,#fff,#faf7ff);border:2px solid #e9ddfc;color:#2c2350;box-shadow:0 4px 12px #4223850c}
+.tile:hover{border-color:#9e7bf6;background:#f3edff}
+.tile.done{border-color:#13bda7;background:#e7fbf4}
+.tile .muted{color:#6d618a}
+.entry{border-color:#ece6f5}
+.notice{color:#a45100}.success{color:#008a75}
+.mobile-nav{background:#fff;border-top:1px solid #e9def9;box-shadow:0 -6px 20px #3d247914}
+.mobile-nav button{color:#6633bd;box-shadow:none}
+@media(max-width:850px){.main{padding-top:25px}.mobile-nav button{font-weight:750}.hero .card:first-child{background:linear-gradient(130deg,#6938d6,#cf50b7)}}
+@media(prefers-reduced-motion:reduce){button{transition:none}button:hover{transform:none}}
 </style></head><body><div id="root"></div><script src="/app.js" defer></script></body></html>

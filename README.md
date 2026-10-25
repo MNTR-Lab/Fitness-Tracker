@@ -51,3 +51,9 @@ The linked GitHub repository currently appears to be **public**. Its `public/wor
 - Exercises show expandable original instructions and set-by-set weight/reps fields; saved via existing D1 `exercise_logs`.
 - Preserve `public/workouts/*.jpg` as reference during transcription.
 - This is a functional staged milestone, **not** completion of all 48 conversions.
+
+## Milestone 6 — program naming and colorful theme
+- The existing 12-week plan is labeled **12 Weeks of Pain and Suffering** in the dashboard and workout library.
+- Bright purple/pink/teal styling replaces the dark interface.
+- No database migration; workout progress and logins remain unchanged.
+- Future additional programs require separate program IDs and program-specific progress before they are added.
