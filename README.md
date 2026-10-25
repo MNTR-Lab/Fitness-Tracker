@@ -57,3 +57,10 @@ The linked GitHub repository currently appears to be **public**. Its `public/wor
 - Bright purple/pink/teal styling replaces the dark interface.
 - No database migration; workout progress and logins remain unchanged.
 - Future additional programs require separate program IDs and program-specific progress before they are added.
+
+## Milestone 7 — previous-set reference and safer logging
+- Each exercise displays your highest previously logged weight, and each prescribed set displays your own previous weight/reps when available. The lookup excludes the current session and never includes another user’s records.
+- Save buttons disable while the request is in flight to reduce accidental double-submissions; errors re-enable the button.
+- Exercise descriptions remain clearly marked as unverified drafts until checked against the original sheets.
+- No schema changes or data reset.
+- Important source distinction: 48 JPEG sheets are **source pages**, not necessarily 48 independent training days. The exact day/exercise boundaries must be verified during transcription; the existing 48 navigation slots remain unchanged for compatibility.
