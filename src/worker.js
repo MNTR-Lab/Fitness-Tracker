@@ -8,7 +8,29 @@ function bad(message,status=400){return response({error:message},status)}
 async function auth(request,env){let token=(request.headers.get('Authorization')||'').replace(/^Bearer /,'');if(!token)return null;let hash=await sha(token);return await env.DB.prepare("SELECT users.id,users.name,users.email FROM sessions JOIN users ON users.id=sessions.user_id WHERE token_hash=? AND expires_at>datetime('now')").bind(hash).first()}
 async function issue(env,user){let token=random()+random();await env.DB.prepare("INSERT INTO sessions(token_hash,user_id,expires_at) VALUES(?,?,datetime('now','+30 days'))").bind(await sha(token),user.id).run();return {token,user:{id:user.id,name:user.name,email:user.email}}}
 export default {async fetch(request,env){const url=new URL(request.url);if(!url.pathname.startsWith('/api/'))return env.ASSETS.fetch(request);try{if(request.method==='OPTIONS')return new Response(null,{status:204});const route=url.pathname;let body={};if(['POST','PUT'].includes(request.method)){if(Number(request.headers.get('content-length')||0)>20000)return bad('Request too large',413);try{body=await request.json()}catch{return bad('Invalid JSON')}}
-if(route==='/api/setup'&&request.method==='POST') {if(!env.SETUP_KEY||body.setupKey!==env.SETUP_KEY)return bad('Invalid setup key',403);const count=await env.DB.prepare('SELECT count(*) as n FROM users').first();if(count.n>=2)return bad('Two accounts already created',403);const email=String(body.email||'').trim().toLowerCase(),name=String(body.name||'').trim(),pass=String(body.password||'');if(!/^\S+@\S+\.\S+$/.test(email)||name.length<1||pass.length<12)return bad('Enter name, valid email and password of at least 12 characters');let salt=random();let user={id:random(),email,name};await env.DB.prepare('INSERT INTO users(id,email,name,salt,password_hash) VALUES(?,?,?,?,?)').bind(user.id,email,name,salt,await passwordHash(pass,salt)).run();return response(await issue(env,user))}
+if(route==='/api/setup'&&request.method==='POST') {
+  if(!env.SETUP_KEY||body.setupKey!==env.SETUP_KEY)return bad('Invalid setup key',403);
+  const email=String(body.email||'').trim().toLowerCase(),name=String(body.name||'').trim(),pass=String(body.password||'');
+  if(!/^\S+@\S+\.\S+$/.test(email)||name.length<1||pass.length<12)return bad('Enter name, valid email and password of at least 12 characters');
+  // The response intentionally reports a stage code only, never DB errors or secrets.
+  let stage='SETUP_DB_COUNT';
+  try {
+    const count=await env.DB.prepare('SELECT count(*) as n FROM users').first();
+    if(count.n>=2)return bad('Two accounts already created',403);
+    const existing=await env.DB.prepare('SELECT id FROM users WHERE email=?').bind(email).first();
+    if(existing)return bad('This email is already registered. Try signing in.',409);
+    stage='SETUP_PASSWORD_HASH';
+    const salt=random(),user={id:random(),email,name};
+    const hash=await passwordHash(pass,salt);
+    stage='SETUP_USER_INSERT';
+    await env.DB.prepare('INSERT INTO users(id,email,name,salt,password_hash) VALUES(?,?,?,?,?)').bind(user.id,email,name,salt,hash).run();
+    stage='SETUP_SESSION_CREATE';
+    return response(await issue(env,user));
+  } catch(e) {
+    console.error('Registration failure at '+stage, e);
+    return response({error:'Registration could not be completed.',diagnosticCode:stage},500);
+  }
+}
 if(route==='/api/login'&&request.method==='POST'){let email=String(body.email||'').toLowerCase().trim(),pass=String(body.password||'');let u=await env.DB.prepare('SELECT * FROM users WHERE email=?').bind(email).first();if(!u||await passwordHash(pass,u.salt)!==u.password_hash)return bad('Invalid email or password',401);return response(await issue(env,u))}
 const user=await auth(request,env);if(!user)return bad('Please sign in',401);const uid=user.id;
 if(route==='/api/me'&&request.method==='GET')return response({user});

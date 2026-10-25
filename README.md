@@ -36,3 +36,10 @@ The linked GitHub repository currently appears to be **public**. Its `public/wor
 - Matched Worker name to the Git-connected Cloudflare project `fitness-tracker`.
 - This is a targeted mitigation based on the registration symptom, not a confirmed root cause. If the issue persists, enable Worker observability and inspect runtime errors.
 - Rotate the SETUP_KEY after both accounts are created because the original value was shared in chat.
+
+
+## Milestone 4: Registration diagnostics
+- The registration endpoint now returns a safe `diagnosticCode` on internal failures: `SETUP_DB_COUNT`, `SETUP_PASSWORD_HASH`, `SETUP_USER_INSERT`, or `SETUP_SESSION_CREATE`. No passwords, setup keys, or SQL error details are sent to the browser.
+- If `SETUP_SESSION_CREATE` is returned, the user record may have been created successfully. **Try signing in** rather than creating a duplicate account.
+- No database schema changes. No changes to password hashing or existing credentials.
+- To see the code, use the browser's Network panel, select the `/api/setup` request, and inspect its Response JSON. The UI may only show the generic error.
