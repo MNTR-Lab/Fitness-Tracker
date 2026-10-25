@@ -1,17 +1,10 @@
-# Fitness Tracker — Weeks 1–6 GitHub Update
+# Fitness Tracker — Full 12-Week Program GitHub Update
 
-This package replaces ONLY `public/workouts-coded.json`.
+Replace these TWO files in your GitHub repository (MNTR-Lab/Fitness-Tracker):
 
-## Upload to GitHub
-1. Open MNTR-Lab/Fitness-Tracker on GitHub, branch `main`.
-2. Navigate to `public/workouts-coded.json`.
-3. Replace the file with the file in this ZIP at the same path, and commit.
-4. Allow Cloudflare deployment to complete; then test the workouts.
+1. `public/workouts-coded.json` — all 48 structured workouts across Weeks 1–12.
+2. `public/program.json` — exactly four workout cards per week, matching the four workouts transcribed. Removes the phantom fifth cards in Weeks 2 and 4, and restores the missing fourth cards in Weeks 11 and 12.
 
-This is a COMPLETE merged replacement, not a patch. It retains all four workouts for each of Weeks 1–2 and adds Weeks 3–6. No UI or backend files are modified.
+Commit both files together to `main`. Do not delete any other files. The application automatically renders its workout cards from `program.json`, so `public/app.js` does not need to change.
 
-The workout instructions are structured, source-reviewed paraphrases and have not been certified verbatim. Verify individual exercises against original scans before relying on them as an exact reproduction.
-
-NOTE: Week 3's earlier update ZIP contained only one Week 1 workout; this package fixes that by merging Week 3's four workouts into the complete Week 1–2 base.
-
-Week 4 source pages 4.4 and 4.5 duplicate content; duplicate exercises are not added.
+NOTE: Descriptions are condensed transcriptions/paraphrases, NOT word-for-word certified against the original pages. Some prescribed reps are text (e.g. failure or rest-pause) and are shown in the target column; enter the actual numeric repetitions completed. The original source-sheet image references are deliberately omitted from the program index to avoid incorrectly attaching a page to a workout when multiple workouts share one source page.
