@@ -1,7 +1,7 @@
 {
   "1-1": {
     "title": "Legs",
-    "status": "needs_original_text_review",
+    "status": "source_checked_needs_wording_proofread",
     "exercises": [
       {
         "name": "Lying leg curls",
@@ -20,7 +20,7 @@
             "type": "drop set"
           }
         ],
-        "instructions": "Have someone gently push down on your lower back while you perform these to keep your hips down. You won\u2019t be able to go as heavy, but it will isolate them better. Two warm-up sets: 12 reps and 10 reps. For the fourth set, return to the weight used for 12 reps and perform 10 more reps, then drop a plate for 10 reps, drop another plate for 10 reps, and finish with 25 partial reps out of the bottom. Keep constant tension."
+        "instructions": "Have someone gently push down on your lower back while you do these to keep your hips down — you won’t be able to go as heavy, but it will isolate them better. Two warm up sets then 1 set of 12, go heavier, 1 set of 10, heavier, 1 set of 8, rest about 30 seconds between sets. Then do a drop set like this for your 4th set: go back to weight you did for 12, do 10 reps, drop a plate and do 10 more reps, drop a plate and do 10 reps, then do 25 partials out of the bottom. Just start the weight up and come back down... little reps... your hams will be on fire... the weight will literally only be moving 2-3 inches, but they will be on fire from the constant tension."
       },
       {
         "name": "Barbell stiff legs",
@@ -35,7 +35,7 @@
             "reps": 10
           }
         ],
-        "instructions": "Bend your knees at the bottom. Use 25 lb plates on the barbell to get a better stretch. Complete 2 warm-up sets, then 3 working sets of 10. Flex glutes and hamstrings at the top."
+        "instructions": "Barbell stiff legs (bend your knees at bottom) — use 25 lb plates (on the barbell) to get better stretch — 2 warm ups to get stretched out then find a good weight that you can use for 3 sets of 10. On every rep come up and flex your glutes and hams. 3 total work sets."
       },
       {
         "name": "Leg press",
@@ -50,7 +50,7 @@
             "reps": 10
           }
         ],
-        "instructions": "Place feet a little wider than shoulder width and a little low on the platform. Start light with one plate on each side, increase until you reach a challenging working weight. During each working set, take 3 seconds lowering the eccentric phase and drive up without locking out. Keep constant tension. Three working sets of 10."
+        "instructions": "Leg presses — you will love leg presses after all this ham work. Place feet just a little wider than shoulder width, and a little low on the platform. Start light with 1 plate on each side. When you are going heavy, you should still keep feeling it in your hamstrings. Keep going up for sets of 10 until you can get to a weight you are able to work hard. Once you get to what you feel is your first working set (where you are getting 10, but starting to have to work hard), I want you to take 3 seconds going down during the eccentric phase, then drive the weight up on EVERY REP throughout the remainder of your leg presses. I want you to do 3 hard sets of this. Go up in weight as much as you like, just be sure to get the full 3 second descent on each and every rep. Do not lock out — keep constant tension on your thighs for the best effect."
       },
       {
         "name": "Smith machine squat",
@@ -62,18 +62,21 @@
             "reps": 10
           }
         ],
-        "instructions": "Warm up thoroughly. Use a constant-tension squat with feet slightly forward, going below parallel and coming about three quarters of the way up. Two working sets of 10."
+        "instructions": "Smith machine squat — you will be plenty warm — this won’t take much weight — have one of the guys there who is a constant tension. So 2 sets of 10 done like this — go down below parallel, and only come up 3/4 of the way up — then back down deep the way up — that is one rep. So really they are 1 1/2’s. These will be 2 total work sets."
       },
       {
         "name": "Leg extension",
         "sets": [
           {
-            "reps": 12,
-            "type": "drop set"
+            "reps": 12
           }
         ],
-        "instructions": "Raise your butt off the seat while performing these. One drop set: 12 reps, reduce the weight, then hold each contraction for 3 seconds. Use the original sheet for the precise drop sequence."
+        "instructions": "Leg extension — I want you to raise your butt out of the seat when you are doing these. It will allow you to squeeze your tear drop harder — 1 x 12, and hold each contraction for 3 seconds. Use a heavy weight and squeeze the crap out of them. 1 total work set."
       }
-    ]
+    ],
+    "source_pages": [
+      "Program 1 (Week 1.1).jpeg"
+    ],
+    "source_note": "The original Week 1.1 sheet contains the Legs session. The next source sheet begins Back and then Chest; source pages are not equivalent to workout days."
   }
 }

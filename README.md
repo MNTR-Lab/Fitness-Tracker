@@ -64,3 +64,10 @@ The linked GitHub repository currently appears to be **public**. Its `public/wor
 - Exercise descriptions remain clearly marked as unverified drafts until checked against the original sheets.
 - No schema changes or data reset.
 - Important source distinction: 48 JPEG sheets are **source pages**, not necessarily 48 independent training days. The exact day/exercise boundaries must be verified during transcription; the existing 48 navigation slots remain unchanged for compatibility.
+
+## Milestone 8 — source-sheet accuracy pass
+- Reviewed the original `Program 1 (Week 1.1).jpeg` visually and corrected Week 1 Legs transcription, especially the leg-extension prescription (1 × 12 with 3-second holds; **not** a drop set).
+- Added source-page provenance and a source-review status to the Week 1 Legs record. Wording is not certified verbatim; continue proofreading against the original scan.
+- The workout interface now distinguishes source-checked instructions from unverified draft instructions.
+- The source archive has 48 JPEG **pages**, but some pages contain transitions between body-part sessions. Do not equate source-page numbering with confirmed training-day boundaries.
+- No database changes. Preserve existing workout history.
